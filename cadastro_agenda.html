@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CADASTRO DE AGENDA </h1>
+    <form action="cadastro_agenda.php" 
+          method="post" enctype="multipart/form-data">
+        <div>
+            <label for="nome">Nome da agenda</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label for="apelido">Apelido</label>
+            <input type="text" name="apelido" id="apelido">
+        </div>
+        <div>
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco">
+        </div>
+        <div>
+            <label for="bairro">Bairro</label>
+            <input type="text" name="bairro" id="bairro">
+        </div>
+        <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+        <div>
+            <label for="estado">Estado</label>
+            <input type="text" name="estado" id="estado">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="fone">Telefone</label>
+            <input type="text" name="fone" id="fone">
+        </div>
+        <div>
+            <label for="celular">Celular</label>
+            <input type="text" name="celular" id="celular">
+        </div>
+        <div>
+            <input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
+        </div>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
