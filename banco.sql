@@ -20,7 +20,7 @@ CREATE TABLE agenda
 	dt_cadastro date not null,
 	foto varchar(50),
 	PRIMARY KEY(id_agenda)
-    
+
 );
 
 -- INSERIR DADOS
