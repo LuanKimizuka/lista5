@@ -31,9 +31,10 @@
                 <th scope="col">Celular</th>
                 <th scope="col">E-mail</th>
                 <th scope="col">Dt_cadastro</th>
+                <th scope="col">Alterar agenda</th>
+                <th scope="col">Excluir agenda</th>
+                <th scope="col">Excluir foto</th>
             </tr>
-            </thead>
-    
             <?php
             do{
                 echo "<tr>";
