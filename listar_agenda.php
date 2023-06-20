@@ -16,26 +16,25 @@
         $row = mysqli_fetch_array($result);
     ?>
 
-    <h1>Consulta de agenda</h1>
-    <table width="500" align="center" border="1">
-        <tr> 
-            <th>Codigo</th>
-            <th>Foto</th>
-            <th>Nome</th>
-            <th>Apelido</th>
-            <th>Endereço</th>
-            <th>Bairro</th>
-            <th>cidade</th>
-            <th>estado</th>
-            <th>telefone</th>
-            <th>celular</th>
-            <th>email</th>
-            <th>data cadastro</th>
-            <th>Alterar agenda</th>
-            <th>Excluir agenda</th>
-            <th>Excluir foto</th>
-        </tr>
-        <?php
+    <h1>Consulta de usuários</h1>
+
+        <table class="table table-bordered" align="center" border="1" width="500" >
+            <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Apelido</th>
+                <th scope="col">Endereco</th>
+                <th scope="col">Bairro</th>
+                <th scope="col">Cidade</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Celular</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">Dt_cadastro</th>
+            </tr>
+            </thead>
+    
+            <?php
             do{
                 echo "<tr>";
                     echo "<td>".$row['id_agenda']."</td>";
